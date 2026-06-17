@@ -1398,7 +1398,7 @@ input, select, textarea {
   .mobile-menu-btn { display: flex; }
 
   .nav-actions .btn-primary span,
-  .nav-actions .btn-primary svg:last-child { display: none; }
+  .nav-actions .btn-primary svg:last-child { display: block; }
 
   .nav-actions .btn-primary {
     padding: 10px;
@@ -1429,6 +1429,7 @@ input, select, textarea {
   .filter-bar {
     flex-direction: column;
     align-items: stretch;
+    overflow-x: auto;
   }
 
   .filter-tabs { overflow-x: auto; }
